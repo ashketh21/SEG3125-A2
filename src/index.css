@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.calendar-day.selected {
+  background-color: #afe8af !important;
+  border-color: #16ce16 !important;
+}
+
+.time-slot.selected {
+  background-color: #afe8af !important;
+  border-color: #16ce16 !important;
+}
