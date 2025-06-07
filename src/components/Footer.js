@@ -12,6 +12,16 @@ const Footer = () => {
             <a className="text-[#688268] text-base font-normal min-w-40" href="#">info@greenvalleyclinic.ca</a>
           </div>
           <p className="text-[#688268] text-base font-normal">© 2024 Green Valley Family Clinic. All rights reserved.</p>
+          <p className="text-[#688268] text-base font-normal">
+            This website was designed by{' '}
+            <a href="https://ashvinkportfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-green-700">
+              Ashvin Kethiswaran
+            </a>{' '}
+            and{' '}
+            <a href="https://svippu.github.io/entrypagesailvippu/" target="_blank" rel="noopener noreferrer" className="underline hover:text-green-700">
+              Sailendhar Vippu
+            </a>.
+          </p>
         </div>
       </div>
     </footer>

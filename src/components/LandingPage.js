@@ -7,10 +7,13 @@ const LandingPage = ({ onBookAppointment }) => {
       <div className="layout-content-container flex flex-col max-w-[960px] flex-1">
         <div className="@container">
           <div className="flex flex-col gap-6 px-4 py-10 @[480px]:gap-8 @[864px]:flex-row">
-            <div 
-              className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl @[480px]:h-auto @[480px]:min-w-[400px] @[864px]:w-full" 
-              style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBivvKPtb-1EsxrMrodcSYp2COqSDMTL7j4tVWqHU5djupB4EKx358S_BhempGq4noaK9h7uBmtotTWwAE-NykDaduLudJJzz7KPHFxaYv8QHnplFw1DqZsRtPJehz2jKh2PjWk_4CVDfiLTTXTq81KsrzY7hYsUNEFIDvcpgzhgA3gVV2ECPkMvXhiJ-LwAeo13Jxv2Q-Bx2FgWIjFqZMs-pT4QRo8ZT6SSInhVd--IWH8Kka1OmaDRX40ydT2KBGJTQBqJEt1eFs")'}}
-            ></div>
+            <div className="w-full max-w-[480px] mx-auto">
+              <img
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBivvKPtb-1EsxrMrodcSYp2COqSDMTL7j4tVWqHU5djupB4EKx358S_BhempGq4noaK9h7uBmtotTWwAE-NykDaduLudJJzz7KPHFxaYv8QHnplFw1DqZsRtPJehz2jKh2PjWk_4CVDfiLTTXTq81KsrzY7hYsUNEFIDvcpgzhgA3gVV2ECPkMvXhiJ-LwAeo13Jxv2Q-Bx2FgWIjFqZMs-pT4QRo8ZT6SSInhVd--IWH8Kka1OmaDRX40ydT2KBGJTQBqJEt1eFs"
+                alt="Happy family"
+                className="w-full h-auto rounded-xl object-contain"
+              />
+            </div>
             <div className="flex flex-col gap-6 @[480px]:min-w-[400px] @[480px]:gap-8 @[864px]:justify-center">
               <div className="flex flex-col gap-2 text-left">
                 <h1 className="text-[#121712] text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl">Your Health, Our Priority</h1>
